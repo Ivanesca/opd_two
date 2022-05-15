@@ -1,0 +1,9 @@
+services:
+  opd_bd:
+    container_name: opd_db
+    image: postgres:13
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+    ports:
+      - "5432:5432"

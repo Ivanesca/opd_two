@@ -1,6 +1,5 @@
 package com.example.opd_two.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import javax.persistence.*;
